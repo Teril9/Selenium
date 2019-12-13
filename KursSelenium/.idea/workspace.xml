@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3b5160-704e-487b-a2d6-0f24d1c4300b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cucumber/features/profile.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login_test/ChangeUserInfoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login_test/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login_test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login_test/UserInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cucumber/features/coders-guru.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CodersGuru/CodersGuru.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/report.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,15 +60,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleSearchTest">
-    <configuration name="Feature: profile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Feature: coders-guru">
+    <configuration name="Feature: coders-guru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/profile.feature" />
-      <option name="GLUE" value="login_test" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/coders-guru.feature" />
+      <option name="GLUE" value="CodersGuru" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KursSelenium" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: profile" />
+      <option name="SUGGESTED_NAME" value="Feature: coders-guru" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -83,15 +79,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Change user birthday date, gender and sign up for a newsletter" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Create User Coders Guru webpage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/profile.feature" />
-      <option name="GLUE" value="login_test" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/coders-guru.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KursSelenium" />
-      <option name="NAME_FILTER" value="^Change user birthday date\, gender and sign up for a newsletter$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Change user birthday date\, gender and sign up for a newsletter$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Change user birthday date, gender and sign up for a newsletter" />
+      <option name="NAME_FILTER" value="^Create User Coders Guru webpage$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create User Coders Guru webpage$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create User Coders Guru webpage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -104,7 +99,8 @@
     </configuration>
     <configuration name="Scenario: user can search any keyword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/feature/google-text-search.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/google-text-search.feature" />
+      <option name="GLUE" value="cucumber.test" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KursSelenium" />
       <option name="NAME_FILTER" value="^user can search any keyword$" />
@@ -120,35 +116,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in KursSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUserForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KursSelenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="przyklad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="przyklad1" />
+      <option name="MAIN_CLASS_NAME" value="przyklad1.CreateUserForm" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUserForm.testMS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KursSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.test.*" />
+          <option name="PATTERN" value="przyklad1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumber.test" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.test.GoogleSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="przyklad1" />
+      <option name="MAIN_CLASS_NAME" value="przyklad1.CreateUserForm" />
+      <option name="METHOD_NAME" value="testMS" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GoogleSearchTest" />
-        <item itemvalue="JUnit.All in KursSelenium" />
-        <item itemvalue="Cucumber java.Feature: profile" />
-        <item itemvalue="Cucumber java.Scenario: Change user birthday date, gender and sign up for a newsletter" />
+        <item itemvalue="Cucumber java.Feature: coders-guru" />
+        <item itemvalue="Cucumber java.Scenario: Create User Coders Guru webpage" />
+        <item itemvalue="JUnit.CreateUserForm" />
+        <item itemvalue="JUnit.CreateUserForm.testMS" />
         <item itemvalue="Cucumber java.Scenario: user can search any keyword" />
       </list>
     </recent_temporary>
