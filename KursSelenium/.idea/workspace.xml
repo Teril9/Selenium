@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3b5160-704e-487b-a2d6-0f24d1c4300b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cucumber/features/coders-guru.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CodersGuru/CodersGuru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PHPtravels/PhpTravelsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: coders-guru">
+  <component name="RunManager" selected="JUnit.PhpTravelsTest.testPhpTravels">
     <configuration name="Feature: coders-guru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/coders-guru.feature" />
@@ -97,25 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: user can search any keyword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/google-text-search.feature" />
-      <option name="GLUE" value="cucumber.test" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="KursSelenium" />
-      <option name="NAME_FILTER" value="^user can search any keyword$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^user can search any keyword$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user can search any keyword" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CreateUserForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KursSelenium" />
       <extension name="coverage">
@@ -131,17 +111,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserForm.testMS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhpTravelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KursSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="przyklad1.*" />
+          <option name="PATTERN" value="PHPtravels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="przyklad1" />
-      <option name="MAIN_CLASS_NAME" value="przyklad1.CreateUserForm" />
-      <option name="METHOD_NAME" value="testMS" />
+      <option name="PACKAGE_NAME" value="PHPtravels" />
+      <option name="MAIN_CLASS_NAME" value="PHPtravels.PhpTravelsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhpTravelsTest.testPhpTravels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KursSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PHPtravels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PHPtravels" />
+      <option name="MAIN_CLASS_NAME" value="PHPtravels.PhpTravelsTest" />
+      <option name="METHOD_NAME" value="testPhpTravels" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhpTravelsTest.testPhpTravels" />
+        <item itemvalue="JUnit.PhpTravelsTest" />
         <item itemvalue="Cucumber java.Feature: coders-guru" />
         <item itemvalue="Cucumber java.Scenario: Create User Coders Guru webpage" />
         <item itemvalue="JUnit.CreateUserForm" />
-        <item itemvalue="JUnit.CreateUserForm.testMS" />
-        <item itemvalue="Cucumber java.Scenario: user can search any keyword" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574706796021</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Zadanie 1 na zaliczenie&quot;">
+      <created>1576265141179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576265141179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,5 +185,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Zadanie 1 na zaliczenie&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Zadanie 1 na zaliczenie&quot;" />
   </component>
 </project>
