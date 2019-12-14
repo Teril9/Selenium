@@ -33,7 +33,7 @@ public class CodersGuru {
         //email
         WebElement emailInput = driver.findElement(By.id("fos_user_registration_form_email"));
         emailInput.clear();
-        emailInput.sendKeys("email@com124.com");
+        emailInput.sendKeys("email@com1234.com");
 
         //name
         WebElement nameInput = driver.findElement(By.id("fos_user_registration_form_name"));
