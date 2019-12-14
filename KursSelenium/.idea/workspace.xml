@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac3b5160-704e-487b-a2d6-0f24d1c4300b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodersGuru/CodersGuru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodersGuru/CodersGuru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PHPtravels/PhpTravelsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PHPtravels/PhpTravelsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PhpTravelsTest.testPhpTravels">
+  <component name="RunManager" selected="JUnit.PhpTravelsTest">
     <configuration name="Feature: coders-guru" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/coders-guru.feature" />
@@ -145,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhpTravelsTest.testPhpTravels" />
         <item itemvalue="JUnit.PhpTravelsTest" />
+        <item itemvalue="JUnit.PhpTravelsTest.testPhpTravels" />
         <item itemvalue="Cucumber java.Feature: coders-guru" />
         <item itemvalue="Cucumber java.Scenario: Create User Coders Guru webpage" />
         <item itemvalue="JUnit.CreateUserForm" />
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576282240237</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Zadanie 2 na zaliczenie - commit 2&quot;">
+      <created>1576328002399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576328002399</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Zadanie 1 na zaliczenie&quot;" />
     <MESSAGE value="&quot;Zadanie 2 na zaliczenie - commit 1&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Zadanie 2 na zaliczenie - commit 1&quot;" />
+    <MESSAGE value="&quot;Zadanie 2 na zaliczenie - commit 2&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Zadanie 2 na zaliczenie - commit 2&quot;" />
   </component>
 </project>
